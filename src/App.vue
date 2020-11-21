@@ -5,7 +5,7 @@
       class="input"
       @click="isKeyboardOpen = true"
       @input="onInputChange"
-      placeholder="Tap on the virtual keyboard to start"
+      placeholder="Type then hit enter on simple-keyboard to hide"
     >
     <SimpleKeyboard
       v-if="isKeyboardOpen"
